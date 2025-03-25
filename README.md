@@ -42,17 +42,27 @@ Concepts Used: Object-Oriented Programming (OOP)
 # Class Structure (Sbi Class)
 # Attributes:
 Bank_Name, Bank_Loc, Ifsc_code, Bank_Mgr, Pin_Code (Bank Details)
+
 No_Cust (Tracks total customers)
+
 Cust_Details (Stores customer details)
+
 transaction_details (Stores transaction history)
 
 # Methods:
 valid_ph(), valid_aadhar(), valid_pin(), valid_pin_code() → Input validation
+
 dis_cust_check_balance() → Check balance
+
 dis_deposit_amt() → Deposit money
+
 dis_withdraw_amt() → Withdraw money
+
 dis_transfer_amt() → Transfer money
+
 dis_modify_pin() → Change PIN
+
 dis_modify_cust_data() → Modify customer details
+
 dis_mini_stmt() → Print mini statement
 
